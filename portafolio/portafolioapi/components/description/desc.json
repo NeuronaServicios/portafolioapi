@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_description_descs",
+  "info": {
+    "name": "desc",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

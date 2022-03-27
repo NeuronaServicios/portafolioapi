@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/webdevs",
+      "handler": "webdev.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/webdevs/count",
+      "handler": "webdev.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/webdevs/:id",
+      "handler": "webdev.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/webdevs",
+      "handler": "webdev.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/webdevs/:id",
+      "handler": "webdev.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/webdevs/:id",
+      "handler": "webdev.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -11,11 +11,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "company": {
+    "position": {
       "type": "string",
       "required": true
     },
-    "position": {
+    "company": {
       "type": "string",
       "required": true
     },
